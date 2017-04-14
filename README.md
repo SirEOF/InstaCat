@@ -1,16 +1,16 @@
-# InsaCat
+# InstaCat
 > Automate ApiLess Instagram Bot
 
 ![stability stable](http://b.repl.ca/v1/stability-stable-brightgreen.png)
+
+**[Warning] I take no responsibility for the use of this script [Warning]**
+
+Instagram Automated Following & Unfollowing Bot by given target username
 
 ### ScreenCast
 
 [![InstaCat](https://img.youtube.com/vi/2lbHa7hZ7ig/0.jpg)](https://www.youtube.com/watch?v=2lbHa7hZ7ig)
 
-
-**[Warning] I take no responsibility for the use of this script [Warning]**
-
-Instagram Automated Following & Unfollowing Bot by given target username
 
 ### Usage
 
