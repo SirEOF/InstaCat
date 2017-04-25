@@ -14,8 +14,7 @@ class ObjectParser(object):
             self.__dict__[key] = value2
 
 
-def sleeper(m):
-    if not m: m = random.randint(10, 60)
+def sleeper(m=random.randint(10, 60)):
     s = m
     for t in range(s, -1, -1):
         minutes = t / 60
