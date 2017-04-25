@@ -28,9 +28,10 @@ def config_bot():
         sys.exit()
 
 
-
 def following(user_id):
     try:
+        # instagram will ban your account if you follow to much account so we follow only 30 user per hour ?
+        sleeper()
         url = 'https://www.instagram.com/web/friendships/' + str(user_id) + '/follow/'
         while True:
             r = req(url, 'POST', None)
@@ -46,6 +47,7 @@ def following(user_id):
 
 def unfollowing(user_id):
     try:
+        sleeper()
         url = 'https://www.instagram.com/web/friendships/' + str(user_id) + '/unfollow/'
         while True:
             r = req(url, 'POST', None)
